@@ -1,0 +1,106 @@
+
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin: 50px 0 50px 0;
+}
+
+  .login {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    box-sizing: border-box; /* Includes padding and borders in width calculations */
+    overflow: hidden; /* Prevent content from overflowing */
+  }
+  
+  .form-toggle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .form-toggle button {
+    width: 50%;
+    padding: 10px;
+    background-color: #f3f3f3;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .form-toggle .active {
+    background-color: #C8A055;
+    color: white;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%; /* Ensure inputs don’t overflow the container */
+    height: auto; /* Reset any default browser height adjustments */
+    box-sizing: border-box; /* Include padding and borders in height */
+  }
+
+  .form-group {
+    display: flex;
+    gap: 10px; /* Add space between inputs */
+    flex-wrap: wrap; /* Ensure inputs wrap on smaller screens */
+  }
+
+  /* Full-width for grouped inputs */
+ .form-group input {
+  flex: 1; /* Inputs share space equally */
+  min-width: 0; /* Prevent inputs from growing too large */
+  }
+
+  .form button {
+    padding: 10px;
+    background-color: #C8A055;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Aligns text and icon centrally */
+    gap: 10px; /* Adds space between icon and text */
+    margin-bottom: 5px; /* Adds space between buttons */
+    margin-top: 5px;
+  }
+
+  .form a {
+    color: gray;
+    text-decoration: none;
+    margin-bottom: 10px;
+    text-align: right;
+  }
+  
+  .separator {
+    text-align: center;
+    color: #aaa; /* Light color for the text */
+    font-size: 12px; /* Smaller font size */
+    margin: 10px 0; /* Space above and below the text */
+}
+
+  .form p {
+    text-align: center;
+  }
+  

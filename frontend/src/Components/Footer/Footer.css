@@ -1,0 +1,18 @@
+@layer components {
+    .text-gold-400 {
+      color: #DAA520;
+    }
+    
+    .hover\:text-gold-400:hover {
+      color: #DAA520;
+    }
+  }
+
+  .text-gold-400 {
+    color: #DAA520;
+  }
+  
+  .hover\:text-gold-400:hover {
+    color: #DAA520;
+  }
+  
